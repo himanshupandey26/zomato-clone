@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zomato - Largest Food Delivery network</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Merriweather:300,300italic,regular,italic,700,700italic,900,900italic"
+      rel="stylesheet"
+    />
+    <link id='favicon' rel="shortcut icon" href="./assests/favicon.png" type="image/x-png">
+
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="navbar_brand">
+          <img src="./assests/logo.png" alt="logo" class="brand_logo" />
+        </div>
+        <div class="navbar_nav_items">
+          <div class="nav_item">
+            <button class="button_primary hide_mobile">Order Food</button>
+            <div></div>
+              <div></div>
+            </button><button
+              class="button_primary hamburger_menu mobile_only"
+              id="hamburgermenu"
+            >
+              <div></div>
+            
+          </div>
+        </div>
+      </nav>
+      <div class="mobile_navbar_items mobile_only hamburger_menu_close">
+        <ul>
+          <li class="nav_item">Products</li>
+          <li class="nav_item">Restaurants</li>
+          <li class="nav_item">Pricing</li>
+          <li class="nav_item">About Us</li>
+        </ul>
+
+        <div class="nav_item">
+          <button class="button_primary">Order Food</button>
+        </div>
+      </div>
+    </header>
+    <main class="container">
+      <section class="hero_container">
+        <div class="hero_image_container">
+          <img src="./assests/hero.jpg" alt="hero image" class="hero_image" />
+          <img
+            src="./assests/svg/heroShape.svg"
+            alt="hero image shape"
+            class="hero_image_shape"
+          />
+          <img
+            src="./assests/svg/herobgpattren.svg"
+            alt="hero image shape"
+            class="hero_image_pattren"
+          />
+        </div>
+        <div class="hero_description">
+          <h1 class="hero_text">
+            Order food from favourite restaurants near you.
+          </h1>
+          <button class="button_primary">Order Now</button>
+        </div>
+      </section>
+
+      <section class="video_footage_container">
+        <div class="video_footage">
+          <iframe
+            src="https://player.vimeo.com/video/323795266"
+            frameborder="0"
+            allow="autoplay; fullscreen; picture-in-picture"
+            allowfullscreen
+            class="chef_video"
+          ></iframe>
+        </div>
+        <div class="video_footage_text">
+          <p>
+            Your food will be prepared safely with an experienced chef, without
+            compromising on the quality and hygiene.
+          </p>
+        </div>
+      </section>
+
+      <section class="food_list_container">
+        <h1 class="text-xl">Explore our menu</h1>
+        <div class="food_list_container_diagonal"></div>
+
+        <div class="food_menu_card_list">
+          <div class="food_menu_card">
+            <img
+              src="./assests/burger.avif"
+              alt="burger"
+              class="food_menu_card_image"
+            />
+            <div class="food_menu_card_details">
+              <h4 class="text-lg"><strong>Wat-a-Burger! - India ka Burger</strong></h4>
+              <p>
+                Burger King, Mcdonalds, Burger Place
+                <span style="color: red">+3</span>
+              </p>
+            </div>
+          </div>
+          <div class="food_menu_card food_menu_card_move_up">
+            <img
+              src="./assests/ghr food.avif"
+              alt="pizza"
+              class="food_menu_card_image"
+            />
+            <div class="food_menu_card_details">
+              <h4 class="text-lg"><strong>Zomato Ghar Ka Khana</strong></h4>
+              <p>
+                North Indian DLF Phase 3, Gurgaon
+                <span style="color: red">+3</span>
+              </p>
+            </div>
+          </div>
+          <div class="food_menu_card">
+            <img
+              src="./assests/ice.avif"
+              alt="iceCream"
+              class="food_menu_card_image"
+            />
+            <div class="food_menu_card_details">
+              <h4 class="text-lg"><strong>Kwality Wall’s Frozen Dessert and Ice Cream Shop</strong></h4>
+              <p>
+                Baskin Robins, Ibaco
+                <span style="color: red">+3</span>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="food_list_view_more">View More</div>
+      </section>
+      <section class="restaurant_list_container">
+        <div class="restaurant_list_text">
+          <h4 class="text-xl">"" 100s of Restaurants at Your Fingertips! ""</h4>
+        </div>
+        <div class="restaurant_list_images_container">
+          <div class="restaurant_list_row_1">
+            <div>
+              <img
+                src="./assests/restaurant1.jpg"
+                alt="restaurant1"
+                class="restaurant1"
+              />
+            </div>
+            <img
+              src="./assests/restaurant2.jpg"
+              alt="restaurant2"
+              class="restaurant2"
+            />
+          </div>
+          <div class="restaurant_list_row_2">
+            <img
+              src="./assests/restaurant3.jpg"
+              alt="restaurant3"
+              class="restaurant3"
+            />
+            <img
+              src="./assests/restaurant4.jpg"
+              alt="restaurant4"
+              class="restaurant4"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="email_subcribe_container">
+        <div>
+          <h1 class="text-xl">Stay Updated</h1>
+          <div class="email_subcribe_input_field">
+            <div>
+              <input
+                type="email"
+                placeholder="email@email.com"
+                class="email_input"
+              />
+            </div>
+            <button class="button_primary">Get Updates</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="quote_container">
+        <div class="quote_image_overlay"></div>
+        <h3 class="quote_image_text">
+          When a man's stomach is full it makes no difference whether he is rich
+          or poor.
+        </h3>
+      </section>
+    </main>
+
+    <section class="faqs">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faqsbox">
+
+          <span>How does Zomato work?</span>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 4V20" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+              <path d="M4 12H20" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+          </svg>
+
+
+      </div>
+      <div class="faqsbox">
+
+          <span>What restaurants are available on Zomato?</span>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 4V20" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+              <path d="M4 12H20" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+          </svg>
+
+      </div>
+      <div class="faqsbox">
+
+          <span>How can I place an order on Zomato?</span>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 4V20" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+              <path d="M4 12H20" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+          </svg>
+
+      </div>
+      <div class="faqsbox">
+
+          <span>Can I modify or cancel my order after placing it?</span>
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 4V20" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+              <path d="M4 12H20" stroke="white" stroke-width="1.5" stroke-linejoin="round" />
+          </svg>
+
+      </div>
+      
+      <div class="text-extra">
+
+          <span class="extraspantext">
+            Share your email to embark on a journey with Zomato and relish a world of flavors at your fingertips.
+          <span>
+          <div class="input">
+              <input type="text" placeholder="Email Address">
+              <button class="get-started">Get Started &gt;
+              </button>
+          </div>
+
+      </div>
+  </section>
+    <footer>
+
+      <div class="footer">
+        <img src="./assests/logo.png" alt="logo" />
+        <ul>
+          <li>Pricing</li>
+          <li>Partnership</li>
+          <li>Career</li>
+          <li>Terms and condition</li>
+        </ul>
+        <ul>
+          <li class="items">FAQ</li>
+          <li class="items">Help Center</li>
+          <li class="items">Account</li>
+          <li class="items">MediaCenter</li>
+      </ul>
+      <ul>
+        <li class="items">Privacy</li>
+        <li class="items">Cookie Preferences</li>
+        <li class="items">Corporate Information</li>
+        <li class="items">Contact Us</li>
+      </ul>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2024 Zomato Clone. All rights reserved. | Author: Himanshu Pandey</p>
+        <p></p>
+      </div>
+    </footer>
+    <script>
+      const hamburgermenu = document.getElementById("hamburgermenu");
+      const mobileNavDropDown = document.querySelector(
+        ".mobile_navbar_items"
+      );
+      window.addEventListener("click", () => {
+        if (mobileNavDropDown.classList.contains("hamburger_menu_close"))
+          return mobileNavDropDown.classList.remove("hamburger_menu_close");
+        return mobileNavDropDown.classList.add("hamburger_menu_close");
+      });
+    </script>
+  </body>
+</html>
